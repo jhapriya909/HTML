@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+header{
+    background-color: rgba(10,10,10,0.789);
+    color: white;
+    font-size: 2em;
+    padding: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+}
+nav{
+    background-color: rgba(0,0,0,0.873);
+    color: white;
+    display: flex;
+    font-size: 26px;
+    justify-content: space-around;
+    font-weight: 300;
+    padding: 0.2em;
+}
+nav:hover{
+    color: purple;
+   
+}
+img{
+
+ border-radius: 18px;
+ padding: 5px;
+ max-width: 100%;
+  height: auto;
+  flex-direction: column;
+      transition: 0,.2s;
+    
+}
+
+.reactive{
+    display:grid;
+    grid-auto-rows: minmax(10px,auto);    
+    grid-template-columns: minmax(30px,auto);
+    grid-gap:20px;
+
+}
+.reactive2{
+    display: grid;
+    grid-auto-rows: minmax(10px,auto);
+    grid-template-columns: minmax(30px,auto);
+    grid-gap:20px;
+}
+   
+
+
+
+/* rows:means height
+column:means width */
+/* repeat(auto-fill,minmax(200px,1fr)) */
+
+
+

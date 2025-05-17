@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 95vw;
+    padding: 2rem 1rem;
+    margin: 0 auto; 
+}
+.header_contaniner{
+    margin-bottom: 2rem;
+}
+.header_title{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700;
+   text-align: center;
+
+}
+.header_desc{
+    max-width:568px;
+    text-align: center;
+    color: rgba(105,99,99);
+    margin: 0 auto;
+
+}
+    
